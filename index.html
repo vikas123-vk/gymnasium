@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Web Application</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ujjwal Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#membership">Membership Plans</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Transform Your Body at Ujjwal Gym</h2>
+        <p>Join us to reach your fitness goals!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Ujjwal Gym is equipped with the latest workout machines and provides personalized training programs.</p>
+    </section>
+
+    <section id="membership">
+        <h2>Membership Plans</h2>
+        <ul>
+            <li>Basic Plan: ₹500/month</li>
+            <li>Standard Plan: ₹1000/month</li>
+            <li>Premium Plan: ₹1500/month</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <!-- Image Paths Added Here -->
+        <img src="images/gym1.jpg" alt="Gym Image 1">
+        <img src="images/gym1.jpg" alt="Gym Image 2">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="trainers">
+        <h2>Our Trainers</h2>
+        <div class="trainer-gallery">
+            <div class="trainer">
+                <img src="images/manage.jpg" alt="Trainer 1">
+                <p>Ujjwal manager</p>
+            </div>
+            <div class="trainer">
+                <img src="images/trainer.jpg" alt="Trainer 2">
+                <p>vikas professional trainer </p>
+            </div>
+            <div class="trainer">
+                <img src="images/trainer2.jpg" alt="Trainer 3">
+                <p>akshay Trainer </p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Ujjwal Gym. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

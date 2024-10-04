@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/gym2.jpg'); /* Correct path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #9a53bb;
+    color: rgb(17, 5, 15);
+    text-align: center;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: rgb(2, 4, 5);
+    text-decoration: none;
+}
+
+#home, #about, #membership, #gallery, #contact {
+    padding: 2em;
+    color: #f2eef3;
+}
+
+#gallery img {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+#trainers {
+    padding: 2em;
+    text-align: center;
+    background-color: #f4f4f4; /* Optional: light background for trainers section */
+}
+
+.trainer-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between trainer cards */
+}
+
+.trainer {
+    text-align: center;
+    margin: 10px;
+}
+
+.trainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures image is not stretched */
+}
+
+.trainer p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
